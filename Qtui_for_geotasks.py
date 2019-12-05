@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'Qtui_for_geotasks_v-1.2.ui',
 # licensing of 'Qtui_for_geotasks_v-1.2.ui' applies.
 #
-# Created: Sat Oct  5 17:13:05 2019
+# Created: Wed Nov 20 14:30:20 2019
 #      by: pyside2-uic  running on PySide2 5.13.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -390,8 +390,13 @@ class Ui_MainWindow(object):
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.page_5)
         self.verticalLayout_4.setObjectName("verticalLayout_4")
         self.label_20 = QtWidgets.QLabel(self.page_5)
+        self.label_20.setWordWrap(True)
         self.label_20.setObjectName("label_20")
         self.verticalLayout_4.addWidget(self.label_20)
+        self.label_21 = QtWidgets.QLabel(self.page_5)
+        self.label_21.setMaximumSize(QtCore.QSize(16777215, 20))
+        self.label_21.setObjectName("label_21")
+        self.verticalLayout_4.addWidget(self.label_21)
         self.stackedWidget.addWidget(self.page_5)
         self.gridLayout.addWidget(self.stackedWidget, 2, 0, 2, 4)
         self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
@@ -478,6 +483,7 @@ class Ui_MainWindow(object):
         self.label_31.setText(QtWidgets.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\">Для вычисления координат точки пересечения двух отрезков введите координаты их концов </p></body></html>", None, -1))
         self.intersection_button_submit.setText(QtWidgets.QApplication.translate("MainWindow", "Вычислить", None, -1))
         self.intersection_button_plot.setText(QtWidgets.QApplication.translate("MainWindow", "График", None, -1))
-        self.label_20.setText(QtWidgets.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">Приветствие</span></p></body></html>", None, -1))
+        self.label_20.setText(QtWidgets.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:20pt;\">Программа-калькулятор для решения геодезических задач</span></p></body></html>", None, -1))
+        self.label_21.setText(QtWidgets.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:10pt;\">ГУЗ 2019</span></p></body></html>", None, -1))
 
 import src_rc

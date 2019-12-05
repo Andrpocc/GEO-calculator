@@ -1,0 +1,4 @@
+sympy
+pyside2
+matplotlib
+seaborn
