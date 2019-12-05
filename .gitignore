@@ -1,2 +1,6 @@
 .idea/
 __pycache__/
+build/
+GEO-Calc.spec
+version.txt
+mainwindow.ico
